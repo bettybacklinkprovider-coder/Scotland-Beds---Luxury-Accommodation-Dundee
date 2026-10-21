@@ -118,7 +118,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             loop
             muted={isHeroVideoMuted}
             playsInline
-            poster="/src/assets/images/hero_scotland_beds_1792579400556.jpg"
+            poster="/images/hero.jpg"
             onLoadedData={(e) => {
               e.currentTarget.play().catch(() => {});
             }}
@@ -126,7 +126,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           >
             <source src={BUSINESS_INFO.videoTourUrl} type="video/mp4" />
             <img
-              src="/src/assets/images/hero_scotland_beds_1792579400556.jpg"
+              src="/images/hero.jpg"
               alt="Luxury Scottish boutique bedroom at Scotland Beds Dundee"
               className="w-full h-full object-cover"
             />
@@ -265,7 +265,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3] bg-slate-900 border border-slate-200 group">
                 <img
-                  src="/src/assets/images/gallery_dundee_lounge_1792579403482.jpg"
+                  src="/images/dundee_lounge.jpg"
                   alt="Interior ambiance and guest lounge at Scotland Beds Dundee"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

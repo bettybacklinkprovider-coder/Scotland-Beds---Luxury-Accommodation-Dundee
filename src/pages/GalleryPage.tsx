@@ -47,7 +47,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({ onOpenLightbox }) => {
             <div className="lg:col-span-7 relative aspect-video bg-black">
               <video
                 src={BUSINESS_INFO.videoTourUrl}
-                poster="/src/assets/images/hero_scotland_beds_1792579400556.jpg"
+                poster="/images/hero.jpg"
                 controls
                 playsInline
                 className="w-full h-full object-cover"
