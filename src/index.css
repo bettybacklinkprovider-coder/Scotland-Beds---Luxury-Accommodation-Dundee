@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-scottish-navy: #0c1829;
+  --color-scottish-slate: #1e293b;
+  --color-tartan-gold: #c59b27;
+  --color-tartan-amber: #b38519;
+  --color-linen-bg: #faf9f5;
+  --color-linen-card: #f4f1ea;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-color: #faf9f5;
+  color: #1e293b;
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}

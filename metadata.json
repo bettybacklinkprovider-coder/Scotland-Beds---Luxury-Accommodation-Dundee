@@ -1,0 +1,6 @@
+{
+  "name": "Scotland Beds - Luxury Accommodation Dundee",
+  "description": "Premium, modern luxury hotel and accommodation at 2nd Floor, 6 Stirling St, Dundee DD3 6PH, UK. Features luxury rooms, facilities, photo gallery, location map, and direct WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
